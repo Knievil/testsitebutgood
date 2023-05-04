@@ -1,0 +1,75 @@
+.cell {
+  width: 467px;
+  height: 627px;
+  position: relative;
+  float: right;
+}
+
+.bars {
+  width: 467px;
+  height: 427px;
+}
+.rat {
+  width: 467px;
+  height: 627px;
+  position: relative;
+  float: right;
+}
+body {
+  background-image: url('https://raw.githubusercontent.com/Knievil/testsite/main/images/backround.jpg?token=GHSAT0AAAAAACA6FPLWNKDB6RIO35Y7UGN4ZCSUUZQ');
+  cursor: url('cusor.png'), default;
+}
+h1 {
+  color: DeepPink;
+  text-align: center;
+  font-family: monospace;
+  font-size: 50px;
+}
+p {
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+}
+.main {
+  border: solid;
+  color: deeppink;
+  border-color: blue;
+  margin: auto;
+  background-image: url('https://raw.githubusercontent.com/Knievil/testsite/main/images/tile.jpg?token=GHSAT0AAAAAACA6FPLWRBT42FR6HGDWSZQYZCSUTWA');
+}
+.cell {
+  text-align: center;
+  border: solid;
+  color: blue;
+  border-color: blue;
+  cursor: url('https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/64ec56928573c02.png'),
+    default;
+  background-image: url('https://artx.nyc3.cdn.digitaloceanspaces.com/textures/20/07/grey-brick-5efe3119673dd-1250.jpg');
+  height: 300px;
+  width: 35%;
+  float: right;
+}
+/* unvisited link */
+a:link {
+  color: pink;
+}
+/* visited link */
+a:visited {
+  color: hotpink;
+}
+/* mouse over link */
+a:hover {
+  color: deeppink;
+}
+/* selected link */
+a:active {
+  color: blue;
+}
+.bars {
+  width: 467;
+  height: 427;
+}
+a:focus {
+  outline: auto 5px Highlight; /* for non-webkit browsers */
+  outline: auto 5px -webkit-focus-ring-color; /* for webkit browsers */
+}

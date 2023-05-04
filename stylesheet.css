@@ -35,7 +35,7 @@ p {
   color: deeppink;
   border-color: blue;
   margin: auto;
-  background-image: url('https://raw.githubusercontent.com/Knievil/testsite/main/images/tile.jpg?token=GHSAT0AAAAAACA6FPLWRBT42FR6HGDWSZQYZCSUTWA');
+  background-image: url('https://github.com/Knievil/testsitebutgood/blob/main/images/tile.jpg?raw=true');
 }
 .cell {
   text-align: center;
@@ -72,4 +72,23 @@ a:active {
 a:focus {
   outline: auto 5px Highlight; /* for non-webkit browsers */
   outline: auto 5px -webkit-focus-ring-color; /* for webkit browsers */
+}
+/* ==========================================================================
+   High contrast mode settings
+   ========================================================================== */
+
+@media (prefers-contrast: more) {
+  body {
+    background-color: gray;
+  }
+  main {
+    background-color: blue;
+    color: whitesmoke;
+  }
+  h1 {
+    color: whitesmoke;
+  }
+  p {
+    color: whitesmoke;
+  }
 }

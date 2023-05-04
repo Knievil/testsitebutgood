@@ -16,7 +16,7 @@
   float: right;
 }
 body {
-  background-image: url('https://raw.githubusercontent.com/Knievil/testsite/main/images/backround.jpg?token=GHSAT0AAAAAACA6FPLWNKDB6RIO35Y7UGN4ZCSUUZQ');
+  background-image: url('https://github.com/Knievil/testsitebutgood/blob/main/images/backround.jpg?raw=true');
   cursor: url('cusor.png'), default;
 }
 h1 {
@@ -74,7 +74,7 @@ a:focus {
   outline: auto 5px -webkit-focus-ring-color; /* for webkit browsers */
 }
 /* ==========================================================================
-   High contrast mode settings
+                              alt-settings               
    ========================================================================== */
 
 @media (prefers-contrast: more) {
@@ -90,5 +90,10 @@ a:focus {
   }
   p {
     color: whitesmoke;
+  }
+}
+@media print {
+  body {
+    background-color: transparent;
   }
 }

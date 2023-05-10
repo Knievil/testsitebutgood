@@ -1,11 +1,38 @@
 body {
-
 }
 
 main {
-
 }
 
-.info [
-  color: red;
-]
+.info {
+  background-color: coral;
+  background-image: url(metal.jpg);
+  border: 5px;
+  border-color: gold;
+  border-style: groove;
+  text-align: center;
+  color: gold;
+  margin: 20% 20px;
+  height: 300px;
+  width: 300px;
+}
+
+.lighthouse {
+  background-color: transparent;
+  border: 2px;
+  border-color: red;
+  height: 600px;
+  width: 200px;
+  float: right;
+}
+.boat {
+  background-color: transparent;
+  border: 2px;
+  border-color: red;
+  height: 200px;
+  width: 200px;
+  animation: both;
+  animation-name: boat;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}

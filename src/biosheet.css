@@ -6,7 +6,7 @@ main {
 
 .info {
   background-color: coral;
-  background-image: url(metal.jpg);
+  background-image: url();
   border: 5px;
   border-color: gold;
   border-style: groove;
